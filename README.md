@@ -1,6 +1,6 @@
 # YOLOv5m training using finetuning and data augmentation on a custom labeled dataset
 
-Object detection YOLOv5m finetuning on custom dataset with PyTorch. The custom dataset was labeled in CVAT and preprocessed in Roboflow. Data augmentation is implemented in the last experiments. Inference on images.
+Object detection YOLOv5m finetuning on custom dataset with PyTorch. The custom dataset was labeled in CVAT and preprocessed in Roboflow. Data augmentation is implemented in the last two experiments. Inference on images.
 
 Original YOLOv5 repository:
 https://github.com/ultralytics/yolov5
@@ -35,7 +35,7 @@ There are 5 YOLOv5 models. In this project, it is used YOLOv5m. This is the medi
 
 A dataset of fruits is used for training the custom YOLOv5 object detector. We can therefore detect 3 objects in images (+1 for the background class), including apples, bananas and oranges.
 
-Data augmentation is implemented in the last experiments. Here, the dataset used for training is an aumented version of the fruits dataset: <a href="https://app.roboflow.com/ds/w115d8mw7V?key=H7V9pu9bcS" target="_blank">Augmented fruits</a>. Data Augmentation was generated in Roboflow with these specifications:
+Data augmentation is implemented in the last two experiments. Here, the dataset used for training is an aumented version of the fruits dataset: <a href="https://app.roboflow.com/ds/w115d8mw7V?key=H7V9pu9bcS" target="_blank">Augmented fruits</a>. Data Augmentation was generated in Roboflow with these specifications:
 - Outputs per training example: 3
 - Crop: 0% Minimum Zoom, 20% Maximum Zoom
 - Rotation: Between -15° and +15°
