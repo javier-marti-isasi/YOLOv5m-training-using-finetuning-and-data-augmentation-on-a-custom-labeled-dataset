@@ -2,6 +2,9 @@
 
 Object detection YOLOv5m finetuning on custom dataset with PyTorch. The custom dataset was labeled in CVAT and preprocessed in Roboflow. Data augmentation is implemented in the last experiments. Inference on images.
 
+![all](https://user-images.githubusercontent.com/73080100/182854011-5081b21c-1f8b-47a3-b834-708ac9dc9f69.jpg)
+
+
 Original YOLOv5 repository:
 https://github.com/ultralytics/yolov5
 
