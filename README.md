@@ -1,6 +1,6 @@
 # YOLOv5m training using finetuning and data augmentation on a custom labeled dataset
 
-Object detection YOLOv5m finetuning on custom dataset with PyTorch. The custom dataset was labeled in CVAT and preprocessed in Roboflow. Data augmentation is implemented in the last two experiments. Inference on images.
+Object detection YOLOv5m finetuning on custom dataset with PyTorch. The custom dataset was manually labeled in CVAT and preprocessed in Roboflow. Data augmentation is implemented in the last two experiments. Inference on images.
 
 Original YOLOv5 repository <a href="https://github.com/ultralytics/yolov5" target="_blank">here</a>.
 
