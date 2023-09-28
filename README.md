@@ -26,7 +26,7 @@ Original YOLOv5 repository <a href="https://github.com/ultralytics/yolov5" targe
 
 It is used YOLOv5m model, which has been trained on the MS COCO dataset. In the notebook provided, the model is finetuned on a custom dataset using PyTorch. 
 
-Is it used a <a href="https://app.roboflow.com/ds/ReliRzR2PO?key=INYILG4hU7" target="_blank">Dataset of fruits</a> that was previouly labeled in CVAT and preprocessed in Roboflow. It consists of 300 images with apples, bananas and oranges labelled. This dataset will be used for training the custom YOLOv5 object detector. Original dataset is located in <a href="https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection" target="_blank">Kaggle</a>.
+It is used a <a href="https://app.roboflow.com/ds/ReliRzR2PO?key=INYILG4hU7" target="_blank">Dataset of fruits</a> that was previouly labeled in CVAT and preprocessed in Roboflow. It consists of 300 images with apples, bananas and oranges labelled. This dataset will be used for training the custom YOLOv5 object detector. Original dataset is located in <a href="https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection" target="_blank">Kaggle</a>.
 
 Data preprocessing in Roboflow included the following specifications:
 - Resize: Fit (black edges) in 416x416
